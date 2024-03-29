@@ -14,13 +14,13 @@ We adapted the unsupervised learning method to cluster portraits. The trained-we
 
 The details are as follows:
 
-1. Extract the features of each portrait.
-2. Apply the k-means algorithm to process the feature matrix and form a robust clustering model.
-3. Use this model and predict function to decide a new picture belongs to which cluster.
+1. Extract the features of each portrait;
+2. Apply the k-means algorithm to process the feature matrix and form a robust clustering model;
+3. Use this model and predict function to decide a new picture belongs to which cluster;
 4. Return all the portraits in this cluster.
 
 How to use it?
 
-1. Run the requirements.txt and import all the necessary packages.
-2. Run the cluster function to train a model.
+1. Run the requirements.txt and import all the necessary packages;
+2. Run the cluster function to train a model;
 3. Run the prediction function to get the most similar portraits.

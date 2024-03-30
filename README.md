@@ -10,7 +10,9 @@ This is a project that has been implemented as part of [the Coding da Vinci Haka
 
 ## Similarity Model Description
 
-We adapted the unsupervised learning method to cluster portraits. The trained-well clustering model was stored in a pickle file. And these portraits were clustered into eight groups and stored in a pickle file. Also, when a user uploads a new picture by GUI, we exploit the similarity and make a reliable prediction that portraits in which cluster has the highest similarity with this new picture.
+I adapted the unsupervised learning method to cluster portraits. The trained-well clustering model was stored in a pickle file. 
+
+These portraits were clustered into eight groups and stored in a pickle file. When a user uploads a new picture by GUI, we exploit the similarity and make a reliable prediction that portraits in which cluster has the highest similarity with this new picture.
 
 The details are as follows:
 
